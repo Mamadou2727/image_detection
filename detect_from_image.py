@@ -99,7 +99,7 @@ def run_inference(model, category_index, image_path):
                 line_thickness=8)
             """The existing plt lines do not work on local pc as they are not setup for GUI
                 Use plt.savefig() to save the results instead and view them in a folder"""
-            # plt.imshow(image_np)
+            plt.imshow(image_np)
             # plt.show()
             plt.savefig("outputs/detection_output{}.png".format(i))  # make sure to make an outputs folder
             i = i + 1
@@ -134,4 +134,4 @@ if __name__ == '__main__':
     run_inference(detection_model, category_index, args.image_path)
 
 # Command to start script
-#  python .\TannerGilbert_detect_from_images.py -m ssd_mobilenet_v2_320x320_coco17_tpu-8\saved_model -l .\data\mscoco_label_map.pbtxt -i .\test_images
+#  python .\detect_from_images.py -m ssd_mobilenet_v2_320x320_coco17_tpu-8\saved_model -l .\data\mscoco_label_map.pbtxt -i .\test_images
