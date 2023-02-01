@@ -9,6 +9,8 @@ changes to go with my YouTube tutorial series.
 ## [Tensorflow 2 Object Detection on Webcam and Videos:](https://www.youtube.com/watch?v=O6BsjQat4aE&ab_channel=LazyTech)
 ![thumbnail](./misc/Tensorflow%202%20Object%20Detection%20on%20Webcam%20and%20Videos.jpg)
 
+## Training a Custom Model (Coming Soon!)
+
 ---
 
 ### Potential future work:
