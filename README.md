@@ -12,6 +12,8 @@ changes to go with my YouTube tutorial series.
 ## [Tensorflow 2 Custom Object Detection Model](https://youtu.be/8ktcGQ-XreQ)
 ![thumbnail](./misc/Tensorflow%202%20Custom%20Model.jpg)
 
+## [Count Objects with Tensorflow 2 Object Detection:](https://youtu.be/xNJU4eZsUq8)
+![thumbnail](./misc/Count%20objects%20with%20tensorflow.jpg)
 ---
 
 ## Some commands used:
